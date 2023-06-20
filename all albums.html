@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Examen 2 APP</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+
+<div id="app">
+    <div class="view view-main view-init">
+
+        <section id="panel-menu" class="panel panel-left panel-cover">
+
+            <div class="block perfil">
+
+                <div class="row">
+                    <article class="col-30">
+                        <img src="img/avatar.jpeg" alt="" class="img-fluid">
+                    </article>
+                    <article class="col-70">
+                        <h6>Julissa Ponce</h6>
+                    </article>
+                </div>
+
+            </div>
+
+
+           <div id="menu-list" class="list media-list">
+              <ul>
+				<li>
+                  <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">home</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Inicio</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/hamburguesas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">music_note</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Albums</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                <li>
+                  <a href="/hamburguesas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">music_note</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">BTS Albums</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/pizzas/" class="item-link item-content panel-close">
+                      <div class="item-media">
+                        <span class="material-icons">music_note</span>
+                      </div>
+                    <div class="item-inner">
+                      <div class="item-title">Seventeen Albums</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/settings/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">settings</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Configuración</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media">
+                        <span class="material-icons">info</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Acerca de..</div>
+                    </div>
+                  </a>
+                </li>
+			  </ul>
+            </div>
+
+        </section>
+
+<section data-name="SVT Albums" class="page">
+	
+	<nav class="navbar">
+		<div class="navbar-bg"></div>
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="#" class="link back"><span class="material-icons">chevron_left</span></a>
+			</div>
+			<div class="title">Seventeen Albums</div>
+			<div class="right">
+				<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+				
+				<a class="link icon-only searchbar-enable" data-searchbar=".search">
+				  <i class="icon material-icons md-only">search</i>
+				 </a>
+			</div>
+		</div>
+		
+		
+		<form class="searchbar searchbar-expandable search searchbar-init" data-search-container="#list-categorias" data-search-in=".item-content">
+			<div class="searchbar-inner">
+			   <div class="searchbar-input-wrap">
+				 <input type="search" placeholder="Buscar productos"/>
+				 <i class="searchbar-icon"></i>
+				 <span class="input-clear-button"></span>
+			   </div>
+			   <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+			</div>
+	  	</form>
+		
+	</nav>
+	
+	
+	<section class="page-content">
+	
+		
+		<div id="list-categorias" class="list media-list block">
+			<ul>
+				<li>
+				  <a href="#" class="item-link item-content">
+					<div class="item-media">
+						<img src="img/Seventeen_-_Semicolon.png" alt="" class="img-fluid">
+					</div>
+					<div class="item-inner">
+						<div class="item-title">Semicolon</div>
+						<h3 class="item-text">Seventeen</h3>
+						<p class="precio">$ 3.25</p>
+					</div>
+				  </a>
+				</li>
+				
+				<li>
+				  <a href="#" class="item-link item-content">
+					<div class="item-media">
+						<img src="img/Seventeen_-_An_Ode.png" alt="" class="img-fluid">
+					</div>
+					<div class="item-inner">
+						<div class="item-title">An Ode</div>
+						<h3 class="item-text">Seventeen</h3>
+						<p class="precio">$4.25</p>
+					</div>
+				  </a>
+				</li>
+				
+				<li>
+				  <a href="#" class="item-link item-content">
+					<div class="item-media">
+						<img src="img/BTS_-_Be_Cover.png" alt="" class="img-fluid">
+					</div>
+					<div class="item-inner">
+						<div class="item-title">BE</div>
+						<h3 class="item-text">BTS</h3>
+						<p class="precio">$8.00</p>
+					</div>
+				  </a>
+				</li>
+				
+				<li>
+				  <a href="#" class="item-link item-content">
+					<div class="item-media">
+						<img src="img/wings.png" alt="" class="img-fluid">
+					</div>
+					<div class="item-inner">
+						<div class="item-title">Wings</div>
+						<h3 class="item-text">BTS</h3>
+						<p class="precio">$6.90</p>
+					</div>
+				  </a>
+				</li>
+			</ul>
+		</div>
+		
+		
+	
+	</section>
+
+</section>
+		
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>

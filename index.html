@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Examen 2 APP</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+
+<div id="app">
+    <div class="view view-main view-init">
+
+        <section id="panel-menu" class="panel panel-left panel-cover">
+
+            <div class="block perfil">
+
+                <div class="row">
+                    <article class="col-30">
+                        <img src="img/avatar.jpeg" alt="" class="img-fluid">
+                    </article>
+                    <article class="col-70">
+                        <h6>Julissa Ponce</h6>
+                    </article>
+                </div>
+
+            </div>
+
+
+           <div id="menu-list" class="list media-list">
+              <ul>
+				<li>
+                  <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">home</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Inicio</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/hamburguesas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">music_note</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Albums</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                <li>
+                  <a href="/hamburguesas/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">music_note</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">BTS Albums</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/pizzas/" class="item-link item-content panel-close">
+                      <div class="item-media">
+                        <span class="material-icons">music_note</span>
+                      </div>
+                    <div class="item-inner">
+                      <div class="item-title">Seventeen Albums</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/settings/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">settings</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Configuración</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content">
+                    <div class="item-media">
+                        <span class="material-icons">info</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Acerca de..</div>
+                    </div>
+                  </a>
+                </li>
+			  </ul>
+            </div>
+
+        </section>
+
+
+
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link"><span class="material-icons">settings</span></a>
+                </div>
+                <div class="title">AlbumStore</div>
+                <div class="right">
+                    <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+                </div>
+            </div>
+          </nav>
+
+          <section class="page-content">
+
+            <h2 class="block-title-large block-title">K-Store</h2>
+
+            <section id="carousel" class="block">
+
+				<div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/2.png" alt="" class="img-fluid">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/1.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
+
+          	</section>
+
+            <h2 class="block-title">Categories</h2>
+
+            <section id="categories" class="block">
+				
+				<div class="swiper-container swiper-init" data-speed="400" data-space-between="50" data-slides-per-view="3">
+                	<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+						<a href="all albums.html" class="link">
+							<div class="btn-categorie">
+								<div class="row">
+									<article class="col-40">
+									</article>
+									<article class="col-60 nombre">
+										All
+									</article>
+								</div>
+							</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/st,small,845x845-pad,1000x1000,f8f8f8.jpg" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									SVT
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/BTS_logo_(2017).png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									BTS
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+					</div>
+				</div>
+
+            </section>
+
+            <h2 class="block-title">Popular Now</h2>
+
+            <section class="card-products block">
+
+                <div class="row">
+
+                    <article class="col">
+                        <div class="card">
+							<a href="/bigmac/" class="link">
+                            	<img src="img/wings.png" alt="" class="img-fluid">
+							</a>
+                            <h3>WINGS</h3>
+                            <p>BTS</p>
+                            <h4>$ 5.30</h4>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card">
+                            <img src="img/Seventeen_-_Semicolon.png" alt="" class="img-fluid">
+                            <h3>Semicolon</h3>
+                            <p>SEVENTEEN</p>
+                            <h4>$ 3.25</h4>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+        </section>
+
+    	</section>
+
+    </div>
+</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
